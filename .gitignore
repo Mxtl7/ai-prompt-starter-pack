@@ -1,0 +1,14 @@
+# Secrets / credentials — never commit these
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
